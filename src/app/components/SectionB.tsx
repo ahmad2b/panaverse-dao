@@ -9,7 +9,7 @@ import {
   Heading,
 } from "@chakra-ui/react";
 import CircleIcon from "@/(resources)/CircleIcon";
-// import JobList from "./JobList";
+import JobList from "@/(resources)/JobList";
 
 export default function SectionB() {
   const { colorMode } = useColorMode();
@@ -68,7 +68,7 @@ export default function SectionB() {
                   </Text>
                 </Text>
               </Text>
-              {/* <JobList /> */}
+              <JobList />
             </Box>
           </Box>
         </Container>
