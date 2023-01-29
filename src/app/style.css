@@ -1,0 +1,15 @@
+.hovered {
+    animation: hoverAnimation 0.2s alternate;
+    /* border: 2px solid #d0d1d1;
+    background-color: #d0d1d1;
+    color: black; */
+  }
+  
+  @keyframes hoverAnimation {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.05);
+    }
+  }
