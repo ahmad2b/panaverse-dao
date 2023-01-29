@@ -20,6 +20,7 @@ export default function CourseA() {
   const [isHovered, setIsHovered] = useState(false);
   const bg = { light: "#DDDDDD", dark: "" };
   const color = { light: "#252a33", dark: "" };
+  
   useEffect(() => {
     if (isHovered) {
       setIsHovered(false);
