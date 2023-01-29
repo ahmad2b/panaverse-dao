@@ -34,13 +34,28 @@ export default function RightNav() {
         </Flex>
         <VStack my={5} justify={"space-between"} h={"full"}>
           <Link href={"https://www.youtube.com/@panaverse"}>
-            <Image src="/youtube.png" w={"35px"} h={"35px"} />
+            <Image
+              src="/youtube.png"
+              w={"35px"}
+              h={"35px"}
+              alt={"Youtube Icon"}
+            />
           </Link>
           <Link href={"https://www.facebook.com/groups/panaverse"}>
-            <Image src="/Facebook.png" w={"35px"} h={"35px"} />
+            <Image
+              src="/Facebook.png"
+              w={"35px"}
+              h={"35px"}
+              alt={"Facebook Icon"}
+            />
           </Link>
           <Link href={"https://twitter.com/Panaverse_edu"}>
-            <Image src="/Twitter.png" w={"35px"} h={"35px"} />
+            <Image
+              src="/Twitter.png"
+              w={"35px"}
+              h={"35px"}
+              alt={"Twitter Icon"}
+            />
           </Link>
           {colorMode === "light" ? (
             <MoonIcon

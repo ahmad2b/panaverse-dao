@@ -24,6 +24,7 @@ const ImageSlider = ({ images }: Props) => {
       width={"100%"}
       objectFit={"cover"}
       src={images[currentIndex]}
+      alt={"image"}
     />
   );
 };
