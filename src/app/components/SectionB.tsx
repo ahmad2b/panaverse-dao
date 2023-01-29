@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Link from "next/link";
 import {
   Flex,
   Box,
@@ -7,6 +8,8 @@ import {
   Container,
   useColorMode,
   Heading,
+  OrderedList,
+  ListItem
 } from "@chakra-ui/react";
 import CircleIcon from "@/(resources)/CircleIcon";
 import JobList from "@/(resources)/JobList";
@@ -69,6 +72,7 @@ export default function SectionB() {
                 </Text>
               </Text>
               <JobList />
+             
             </Box>
           </Box>
         </Container>

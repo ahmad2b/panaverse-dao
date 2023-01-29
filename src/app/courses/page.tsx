@@ -103,13 +103,14 @@ const CoursesPage = () => {
       <Box p={4}>
         <Stack spacing={4} maxW={"7xl"} px={{ base: 0, md: 6, lg: 8 }}>
           {courses.map((course, index) => (
-            <SimpleGrid columns={3} spacing={10} p={4}>
-              <GridItem borderRight={"2px"} py={"80px"}>
+            <SimpleGrid columns={3} spacing={10} p={4} key={index}>
+              <GridItem borderRight={"2px"} py={"80px"} >
                 <Stack
                   // Make it center aligns
                   flexDirection={"column"}
                   alignItems={"center"}
                   justifyContent={"center"}
+                  key={index}
                 >
                   <Heading as="h2" size="2xl" mb={2}>
                     {course.id}

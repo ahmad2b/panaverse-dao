@@ -1,4 +1,5 @@
 "use client";
+
 import React from "react";
 import { Box, Link } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
@@ -36,9 +37,9 @@ const JobList = () => {
   return (
     <Box>
       <ol>
-        {jobs.map((job) => (
-          <Box px={8} fontSize={"xl"} fontWeight={"normal"} pt={4}>
-            <li key={job.id}>
+        {jobs.map((job, index) => (
+          <Box px={8} fontSize={"xl"} fontWeight={"normal"} pt={4} key={index}>
+            <li >
               <Link href={job.url} isExternal>
                 {job.title}
                 <ExternalLinkIcon mx="1rem" ml={2} />
@@ -52,3 +53,5 @@ const JobList = () => {
 };
 
 export default JobList;
+
+
