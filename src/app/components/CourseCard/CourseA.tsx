@@ -17,26 +17,27 @@ import "src/app/style.css";
 export default function CourseA() {
   const { colorMode, toggleColorMode } = useColorMode();
 
-  const [isHovered, setIsHovered] = useState(false);
-  const bg = { light: "#DDDDDD", dark: "" };
-  const color = { light: "#252a33", dark: "" };
-  
-  useEffect(() => {
-    if (isHovered) {
-      setIsHovered(false);
-    }
-  }, []);
+  // const [isHovered, setIsHovered] = useState(false);
+  // const bg = { light: "#DDDDDD", dark: "" };
+  // const color = { light: "#252a33", dark: "" };
+
+  // useEffect(() => {
+  //   if (isHovered) {
+  //     setIsHovered(false);
+  //   }
+  // }, []);
 
   return (
     <Card
       maxW={"sm"}
       boxShadow={"md"}
       p={4}
-      className={isHovered ? "hovered" : ""}
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-      bg={bg[colorMode]}
-      color={color[colorMode]}
+      bg={colorMode === "light" ? "#DDDDDD" : ""}
+      // className={isHovered ? "hovered" : ""}
+      // onMouseEnter={() => setIsHovered(true)}
+      // onMouseLeave={() => setIsHovered(false)}
+      // bg={bg[colorMode]}
+      // color={color[colorMode]}
       rounded={4}
     >
       <Box p={4} rounded="md" overflow="hidden">

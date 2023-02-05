@@ -16,27 +16,28 @@ import "src/app/style.css";
 
 export default function CourseD() {
   const { colorMode, toggleColorMode } = useColorMode();
-  const [isHovered, setIsHovered] = useState(false);
-  const bg = { light: "#DDDDDD", dark: "" };
-  const color = { light: "#252a33", dark: "" };
-  const border = { light: "red.200", dark: "red.600" };
-  useEffect(() => {
-    if (isHovered) {
-      setIsHovered(false);
-    }
-  }, []);
+  // const [isHovered, setIsHovered] = useState(false);
+  // const bg = { light: "#DDDDDD", dark: "" };
+  // const color = { light: "#252a33", dark: "" };
+  // const border = { light: "red.200", dark: "red.600" };
+  // useEffect(() => {
+  //   if (isHovered) {
+  //     setIsHovered(false);
+  //   }
+  // }, []);
 
   return (
     <Card
       maxW={"sm"}
       boxShadow={"md"}
       p={4}
-      className={isHovered ? "hovered" : ""}
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-      bg={bg[colorMode]}
-      color={color[colorMode]}
-      border={`1px solid ${border[colorMode]}`}
+      bg={colorMode === "light" ? "#DDDDDD" : ""}
+      // className={isHovered ? "hovered" : ""}
+      // onMouseEnter={() => setIsHovered(true)}
+      // onMouseLeave={() => setIsHovered(false)}
+      // bg={bg[colorMode]}
+      // color={color[colorMode]}
+      // border={`1px solid ${border[colorMode]}`}
       rounded={4}
     >
       <Box p={4} rounded="md" overflow="hidden">

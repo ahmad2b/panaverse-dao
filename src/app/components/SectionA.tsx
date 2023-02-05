@@ -15,14 +15,14 @@ import ImageSlider from "@/(resources)/ImageSlide";
 
 let images: string[] = [
   "https://images.pexels.com/photos/8721342/pexels-photo-8721342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  "https://images.pexels.com/photos/7562249/pexels-photo-7562249.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  "https://images.pexels.com/photos/8721314/pexels-photo-8721314.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  "https://images.pexels.com/photos/8721318/pexels-photo-8721318.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  "https://images.pexels.com/photos/7561807/pexels-photo-7561807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  "https://images.pexels.com/photos/8728380/pexels-photo-8728380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  "https://images.pexels.com/photos/8728383/pexels-photo-8728383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  "https://images.pexels.com/photos/7562023/pexels-photo-7562023.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  "https://images.pexels.com/photos/3761118/pexels-photo-3761118.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  // "https://images.pexels.com/photos/7562249/pexels-photo-7562249.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  // "https://images.pexels.com/photos/8721314/pexels-photo-8721314.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  // "https://images.pexels.com/photos/8721318/pexels-photo-8721318.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  // "https://images.pexels.com/photos/7561807/pexels-photo-7561807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  // "https://images.pexels.com/photos/8728380/pexels-photo-8728380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  // "https://images.pexels.com/photos/8728383/pexels-photo-8728383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  // "https://images.pexels.com/photos/7562023/pexels-photo-7562023.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  // "https://images.pexels.com/photos/3761118/pexels-photo-3761118.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 ];
 
 export default function SectionA() {
