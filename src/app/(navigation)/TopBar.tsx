@@ -11,9 +11,9 @@ import {
   MenuItem,
   IconButton,
   Image,
-  Link,
 } from "@chakra-ui/react";
 import { MoonIcon, SunIcon, HamburgerIcon, LinkIcon } from "@chakra-ui/icons";
+import Link from "next/link";
 
 export default function TopBar() {
   const { colorMode, toggleColorMode } = useColorMode();
